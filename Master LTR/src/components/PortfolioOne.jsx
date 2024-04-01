@@ -1,10 +1,16 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Isotope from "isotope-layout";
+import { useEffect, useRef, useState } from "react";
+// import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
 import Link from "next/link";
 const PortfolioOne = () => {
-  const isotope = React.useRef(Isotope | null);
+  var Isotope;
+
+  if (typeof window !== "undefined") {
+    Isotope = require("isotope-layout");
+  }
+
+  const isotope = useRef(Isotope | null);
   const [active, setActive] = useState(1);
 
   // handling filter key change

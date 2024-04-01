@@ -23,9 +23,9 @@ const page = () => {
     <>
       {/* Preloader */}
       <Preloader />
-      
-       {/* Animation init */}
-       <Animation />
+
+      {/* Animation init */}
+      <Animation />
 
       {/* Header one */}
       <HeaderOne />
