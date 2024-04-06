@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaTwo = () => {
   return (
@@ -52,28 +53,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Strategic Solutions for Sustainable Success
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>
@@ -86,28 +87,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Empowering Businesses Fueling Growth
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>
@@ -120,28 +121,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Strategic guidance for your business success
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>
@@ -154,28 +155,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Strategic Solutions for Sustainable Success
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>
@@ -188,28 +189,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Empowering Businesses Fueling Growth
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>
@@ -222,28 +223,28 @@ const BlogAreaTwo = () => {
                   <div className="blog-img">
                     <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
                     <div className="blog-date">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <span>17</span>Feb
                       </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-user" />
                         By admin
                       </Link>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         <i className="fas fa-comments" />
                         Comments (05)
                       </Link>
                     </div>
                     <h3 className="blog-title">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         Strategic guidance for your business success
                       </Link>
                     </h3>
-                    <Link className="link-btn style3" to="/blog-details">
+                    <Link className="link-btn style3" href="/blog-details">
                       Read More <i className="fas fa-arrow-right ms-2" />
                     </Link>
                   </div>

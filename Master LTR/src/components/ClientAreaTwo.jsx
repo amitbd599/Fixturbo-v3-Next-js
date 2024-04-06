@@ -1,7 +1,8 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const ClientAreaTwo = () => {
   return (
     <div
@@ -40,7 +41,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -49,7 +50,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -58,7 +59,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -67,7 +68,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -76,7 +77,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -85,7 +86,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -94,7 +95,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -104,7 +105,7 @@ const ClientAreaTwo = () => {
                 {" "}
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -113,7 +114,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -122,7 +123,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/">
+                    <Link href="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>

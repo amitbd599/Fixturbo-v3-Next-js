@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ProcessAreaTwo = () => {
   return (
@@ -32,7 +32,7 @@ const ProcessAreaTwo = () => {
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
                 nibh tincidunt proin sit dowm dkeleu
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -45,7 +45,7 @@ const ProcessAreaTwo = () => {
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
                 nibh tincidunt proin sit dowm dkeleu
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -58,7 +58,7 @@ const ProcessAreaTwo = () => {
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
                 nibh tincidunt proin sit dowm dkeleu
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>

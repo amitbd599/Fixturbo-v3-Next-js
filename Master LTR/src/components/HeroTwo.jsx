@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import Link from "next/link";
 const HeroTwo = () => {
   return (
     <div
@@ -29,7 +28,7 @@ const HeroTwo = () => {
                 lacus. Etiam molestie justo neque, in convallis massa tempus in.
               </p>
               <div className="btn-group">
-                <Link to="/about" className="btn">
+                <Link href="/about" className="btn">
                   Learn More
                 </Link>
                 <div className="call-media-wrap">
@@ -39,7 +38,7 @@ const HeroTwo = () => {
                   <div className="media-body">
                     <h6 className="title text-white">Requesting A Call:</h6>
                     <h4 className="link">
-                      <Link className="text-white" to="tel:6295550129">
+                      <Link className="text-white" href="tel:6295550129">
                         (629) 555-0129
                       </Link>
                     </h4>

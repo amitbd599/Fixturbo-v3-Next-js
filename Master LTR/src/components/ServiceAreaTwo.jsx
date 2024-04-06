@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ServiceAreaTwo = () => {
   return (
@@ -33,10 +33,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="Fixturbo" />
+                    <img
+                      src="assets/img/icon/service-icon_1-1.svg"
+                      alt="Fixturbo"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">Mechanic Masters</Link>
+                    <Link href="/service-details">Mechanic Masters</Link>
                   </h4>
                   <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -44,7 +47,7 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <Link to="/service-details" className="btn style4">
+              <Link href="/service-details" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -59,10 +62,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-2.svg" alt="Fixturbo" />
+                    <img
+                      src="assets/img/icon/service-icon_1-2.svg"
+                      alt="Fixturbo"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">Speedy Auto Repair</Link>
+                    <Link href="/service-details">Speedy Auto Repair</Link>
                   </h4>
                   <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -70,7 +76,7 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <Link to="/service-details" className="btn style4">
+              <Link href="/service-details" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -85,10 +91,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Fixturbo" />
+                    <img
+                      src="assets/img/icon/service-icon_1-3.svg"
+                      alt="Fixturbo"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">Precision Auto Works</Link>
+                    <Link href="/service-details">Precision Auto Works</Link>
                   </h4>
                   <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -96,7 +105,7 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <Link to="/service-details" className="btn style4">
+              <Link href="/service-details" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>

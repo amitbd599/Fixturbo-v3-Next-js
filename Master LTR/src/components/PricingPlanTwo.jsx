@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const PricingPlanTwo = () => {
   return (
@@ -25,7 +25,10 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-1.svg" alt="Fixturbo" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-1.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <h4 className="pricing-card_title">Silver Plan</h4>
               </div>
@@ -52,7 +55,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   Get This Plan
                 </Link>
               </div>
@@ -62,7 +65,10 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2 pricing-card-active">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-2.svg" alt="Fixturbo" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-2.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <h4 className="pricing-card_title">Gold Plan</h4>
               </div>
@@ -89,7 +95,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   Get This Plan
                 </Link>
               </div>
@@ -99,7 +105,10 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-3.svg" alt="Fixturbo" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-3.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <h4 className="pricing-card_title">Platinum Plan</h4>
               </div>
@@ -126,7 +135,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   Get This Plan
                 </Link>
               </div>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
@@ -9,7 +10,10 @@ const FaqAreaTwo = () => {
           <div className="col-xl-6">
             <div className="faq-thumb2 mb-xl-0 mb-50">
               <div className="about-counter-grid jump">
-                <img src="assets/img/icon/faq2-counter-icon-1.svg" alt="Fixturbo"/>
+                <img
+                  src="assets/img/icon/faq2-counter-icon-1.svg"
+                  alt="Fixturbo"
+                />
                 <div className="media-right">
                   <h3 className="about-counter">
                     <TrackVisibility once>
@@ -25,7 +29,7 @@ const FaqAreaTwo = () => {
                   <h4 className="about-counter-text">Services we provide</h4>
                 </div>
               </div>
-              <img src="assets/img/normal/faq-thumb-2-1.png" alt="Fixturbo"/>
+              <img src="assets/img/normal/faq-thumb-2-1.png" alt="Fixturbo" />
             </div>
           </div>
           <div className="col-xl-6">

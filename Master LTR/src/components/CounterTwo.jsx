@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
@@ -9,7 +10,10 @@ const CounterTwo = () => {
           <div className="col-sm-6 col-lg-auto">
             <div className="counter-card style2">
               <div className="counter-card_icon">
-                <img src="assets/img/icon/counter-icon_2-1.svg" alt="Fixturbo" />
+                <img
+                  src="assets/img/icon/counter-icon_2-1.svg"
+                  alt="Fixturbo"
+                />
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
@@ -33,7 +37,10 @@ const CounterTwo = () => {
           <div className="col-sm-6 col-lg-auto">
             <div className="counter-card style2">
               <div className="counter-card_icon">
-                <img src="assets/img/icon/counter-icon_2-2.svg" alt="Fixturbo" />
+                <img
+                  src="assets/img/icon/counter-icon_2-2.svg"
+                  alt="Fixturbo"
+                />
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
@@ -57,7 +64,10 @@ const CounterTwo = () => {
           <div className="col-sm-6 col-lg-auto">
             <div className="counter-card style2">
               <div className="counter-card_icon">
-                <img src="assets/img/icon/counter-icon_2-3.svg" alt="Fixturbo" />
+                <img
+                  src="assets/img/icon/counter-icon_2-3.svg"
+                  alt="Fixturbo"
+                />
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
@@ -81,7 +91,10 @@ const CounterTwo = () => {
           <div className="col-sm-6 col-lg-auto">
             <div className="counter-card style2">
               <div className="counter-card_icon">
-                <img src="assets/img/icon/counter-icon_2-4.svg" alt="Fixturbo" />
+                <img
+                  src="assets/img/icon/counter-icon_2-4.svg"
+                  alt="Fixturbo"
+                />
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">

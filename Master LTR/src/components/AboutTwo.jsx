@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
@@ -33,10 +34,21 @@ const AboutTwo = () => {
               <div className="about-year-wrap2 movingX">
                 <div className="about-year-grid-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/about_icon2-2.png" alt="Fixturbo" />
+                    <img
+                      src="assets/img/icon/about_icon2-2.png"
+                      alt="Fixturbo"
+                    />
                   </div>
                   <h3 className="about-counter">
-                    <span className="counter-number">10</span>+
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <span className="counter-number">
+                            <CountUp delay={0} start={0} end={15} />+
+                          </span>
+                        )
+                      }
+                    </TrackVisibility>
                   </h3>
                 </div>
                 <h4 className="about-year-text">Years Of Experiences</h4>

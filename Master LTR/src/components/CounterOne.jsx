@@ -1,5 +1,5 @@
 "use client";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 
 const CounterOne = () => {
@@ -15,7 +15,7 @@ const CounterOne = () => {
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
-                          <ReactVisibilitySensor>
+                          <TrackVisibility once>
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
@@ -24,7 +24,7 @@ const CounterOne = () => {
                                 </span>
                               )
                             }
-                          </ReactVisibilitySensor>
+                          </TrackVisibility>
                         </h2>
                         <p className="counter-card_text">Winning Award</p>
                       </div>
@@ -40,7 +40,7 @@ const CounterOne = () => {
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
-                          <ReactVisibilitySensor>
+                          <TrackVisibility once>
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
@@ -49,7 +49,7 @@ const CounterOne = () => {
                                 </span>
                               )
                             }
-                          </ReactVisibilitySensor>
+                          </TrackVisibility>
                         </h2>
                         <p className="counter-card_text">Happy Clients</p>
                       </div>
@@ -65,7 +65,7 @@ const CounterOne = () => {
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
-                          <ReactVisibilitySensor>
+                          <TrackVisibility once>
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
@@ -74,7 +74,7 @@ const CounterOne = () => {
                                 </span>
                               )
                             }
-                          </ReactVisibilitySensor>
+                          </TrackVisibility>
                         </h2>
                         <p className="counter-card_text">Team Member</p>
                       </div>
@@ -90,7 +90,7 @@ const CounterOne = () => {
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
-                          <ReactVisibilitySensor>
+                          <TrackVisibility once>
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
@@ -99,7 +99,7 @@ const CounterOne = () => {
                                 </span>
                               )
                             }
-                          </ReactVisibilitySensor>
+                          </TrackVisibility>
                         </h2>
                         <p className="counter-card_text">Project Done</p>
                       </div>
