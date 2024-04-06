@@ -1,6 +1,8 @@
+"use client"
 import Link from "next/link";
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const AboutOne = () => {
   return (
     <div className="about-area-1 space-bottom ">
@@ -54,7 +56,17 @@ const AboutOne = () => {
                         alt="Fixturbo"
                       />
                       <h3 className="about-year-wrap-title">
-                        <span className="counter-number">25</span>+
+                      <TrackVisibility once>
+                            {({ isVisible }) =>
+                              isVisible && (
+                                <span className="counter-number">
+                                  <CountUp delay={0} start={0} end={25} />
+                                  +
+                                </span>
+                              )
+                            }
+                          </TrackVisibility>
+                      
                       </h3>
                       <p className="about-year-wrap-text">
                         Years of experience

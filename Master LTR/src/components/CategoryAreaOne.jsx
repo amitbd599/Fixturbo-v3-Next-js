@@ -1,7 +1,7 @@
-import React from "react";
+'use client'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const CategoryAreaOne = () => {
   return (
     <div className="category-area-1 pt-95 pb-100">
@@ -47,7 +47,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -61,7 +61,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -75,7 +75,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -89,7 +89,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -103,7 +103,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -117,7 +117,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -131,7 +131,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -145,7 +145,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -159,7 +159,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -173,7 +173,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -187,7 +187,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -201,7 +201,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -215,7 +215,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -229,7 +229,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -243,7 +243,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>
@@ -257,7 +257,7 @@ const CategoryAreaOne = () => {
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </h6>
                   <p className="category-card-text">12 Products</p>
                 </div>

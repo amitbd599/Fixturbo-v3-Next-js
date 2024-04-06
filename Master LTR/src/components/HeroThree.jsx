@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
+
 const HeroThree = () => {
   return (
     <div className="hero-wrapper hero-3">
@@ -61,12 +63,15 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           Learn More
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                            <img
+                              src="assets/img/icon/phone-1.svg"
+                              alt="Fixturbo"
+                            />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -145,12 +150,15 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           Learn More
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                            <img
+                              src="assets/img/icon/phone-1.svg"
+                              alt="Fixturbo"
+                            />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">

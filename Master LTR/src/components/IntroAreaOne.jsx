@@ -1,9 +1,9 @@
-import React from "react";
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const IntroAreaOne = () => {
   return (
     <div
@@ -149,7 +149,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Back Light</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -165,7 +165,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Steering Wheel</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -181,7 +181,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Body &amp; Engine</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -197,7 +197,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Back Light</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -213,7 +213,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Steering Wheel</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -229,7 +229,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>Car Body &amp; Engine</h3>
                     <p>120 kinds of automobile lights</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       Shop Now <i className="ri-arrow-right-line" />
                     </Link>
                   </div>

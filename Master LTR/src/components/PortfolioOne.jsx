@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-// import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
 import Link from "next/link";
 const PortfolioOne = () => {

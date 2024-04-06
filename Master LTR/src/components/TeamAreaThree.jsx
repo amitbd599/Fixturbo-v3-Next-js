@@ -1,7 +1,8 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const TeamAreaThree = () => {
   return (
     <div className="team-area-2 space">
@@ -61,21 +62,21 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <Link to="/team-details">Darrell Steward</Link>
+                      <Link href="/team-details">Darrell Steward</Link>
                     </h4>
                     <span className="team-card_desig">Software Developer</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="https://linkedin.com/">
+                        <Link href="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
                         </Link>
-                        <Link to="https://www.instagram.com/">
+                        <Link href="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="https://facebook.com/">
+                        <Link href="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="https://twitter.com/">
+                        <Link href="https://twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -92,21 +93,21 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <Link to="/team-details">Wade Warren</Link>
+                      <Link href="/team-details">Wade Warren</Link>
                     </h4>
                     <span className="team-card_desig">Ux Architect</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="https://linkedin.com/">
+                        <Link href="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
                         </Link>
-                        <Link to="https://www.instagram.com/">
+                        <Link href="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="https://facebook.com/">
+                        <Link href="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="https://twitter.com/">
+                        <Link href="https://twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -123,21 +124,21 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <Link to="/team-details">Darrell Steward</Link>
+                      <Link href="/team-details">Darrell Steward</Link>
                     </h4>
                     <span className="team-card_desig">Software Developer</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="https://linkedin.com/">
+                        <Link href="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
                         </Link>
-                        <Link to="https://www.instagram.com/">
+                        <Link href="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="https://facebook.com/">
+                        <Link href="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="https://twitter.com/">
+                        <Link href="https://twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -154,21 +155,21 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <Link to="/team-details">Wade Warren</Link>
+                      <Link href="/team-details">Wade Warren</Link>
                     </h4>
                     <span className="team-card_desig">Ux Architect</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="https://linkedin.com/">
+                        <Link href="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
                         </Link>
-                        <Link to="https://www.instagram.com/">
+                        <Link href="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="https://facebook.com/">
+                        <Link href="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="https://twitter.com/">
+                        <Link href="https://twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>

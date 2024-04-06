@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const SubscribeTwo = () => {
   return (
     <div className="container">
       <div className="footer-top-3">
         <div className="footer-logo">
-          <Link to="/">
+          <Link href="/">
             <img src="assets/img/logo-white.svg" alt="Fixturbo" />
           </Link>
         </div>

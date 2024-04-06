@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HeroSix = () => {
   return (
@@ -17,7 +17,7 @@ const HeroSix = () => {
                 <span className="sub-title">Featured Product</span>
                 <h1 className="hero-title">Engine pistons</h1>
                 <div className="btn-group">
-                  <Link to="/shop" className="btn style2 style-radius">
+                  <Link href="/shop" className="btn style2 style-radius">
                     Shop Now
                   </Link>
                   <span className="offer-tag">Up to 20% Off</span>
@@ -41,9 +41,9 @@ const HeroSix = () => {
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">save up to $5.00</h6>
                 <h4 className="intro-card-title">
-                  <Link to="#">Engine pistons and cog</Link>
+                  <Link href="#">Engine pistons and cog</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   Shop Now
                   <i className="fas fa-arrow-right ms-2" />
                 </Link>
@@ -61,9 +61,9 @@ const HeroSix = () => {
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">save up to $5.00</h6>
                 <h4 className="intro-card-title">
-                  <Link to="#">Engine pistons and cog</Link>
+                  <Link href="#">Engine pistons and cog</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   Shop Now
                   <i className="fas fa-arrow-right ms-2" />
                 </Link>
@@ -80,9 +80,9 @@ const HeroSix = () => {
                   save up to $5.00
                 </h6>
                 <h4 className="intro-card-title text-white">
-                  <Link to="#">Engine pistons and cog</Link>
+                  <Link href="#">Engine pistons and cog</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   Shop Now
                   <i className="fas fa-arrow-right ms-2" />
                 </Link>

@@ -1,7 +1,7 @@
-import React from "react";
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const ServiceAreaThree = () => {
   return (
     <div className="service-area-2 space-bottom position-relative z-index-common">
@@ -89,7 +89,7 @@ const ServiceAreaThree = () => {
                   </div>
                   <div className="col-md-6">
                     <button type="submit" className="btn style2 m-0 w-100">
-                      Search Inventory
+                      Search
                     </button>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/1.png" alt="Fixturbo" />
                       </Link>
                     </div>
@@ -137,7 +137,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/2.png" alt="Fixturbo" />
                       </Link>
                     </div>
@@ -146,7 +146,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/3.png" alt="Fixturbo" />
                       </Link>
                     </div>
@@ -155,7 +155,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/4.png" alt="Fixturbo" />
                       </Link>
                     </div>
@@ -164,7 +164,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/5.png" alt="Fixturbo" />
                       </Link>
                     </div>
@@ -173,7 +173,7 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <Link to="#">
+                      <Link href="#">
                         <img src="assets/img/client/3.png" alt="Fixturbo" />
                       </Link>
                     </div>

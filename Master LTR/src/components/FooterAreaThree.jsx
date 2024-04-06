@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const FooterAreaThree = () => {
   return (
@@ -16,16 +16,16 @@ const FooterAreaThree = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Team</Link>
+                      <Link href="/team">Team</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Faq</Link>
+                      <Link href="/contact">Faq</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Privacy Policy</Link>
+                      <Link href="/contact">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -37,19 +37,19 @@ const FooterAreaThree = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">Mechanic Masters</Link>
+                      <Link href="/service">Mechanic Masters</Link>
                     </li>
                     <li>
-                      <Link to="/service">Speedy Auto Repair</Link>
+                      <Link href="/service">Speedy Auto Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service">Mobile Car Repair</Link>
+                      <Link href="/service">Mobile Car Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service">Pro Auto Fix</Link>
+                      <Link href="/service">Pro Auto Fix</Link>
                     </li>
                     <li>
-                      <Link to="/service">Precision Auto Works</Link>
+                      <Link href="/service">Precision Auto Works</Link>
                     </li>
                   </ul>
                 </div>
@@ -61,11 +61,11 @@ const FooterAreaThree = () => {
                 <div className="widget-contact">
                   <p>
                     <i className="fas fa-phone-alt me-2 text-theme" />
-                    <Link to="tel:888123456765">(+888) 123 456 765</Link>
+                    <Link href="tel:888123456765">(+888) 123 456 765</Link>
                   </p>
                   <p>
                     <i className="fas fa-envelope me-2 text-theme" />
-                    <Link to="mailto:infoname@mail.com">infoname@mail.com</Link>
+                    <Link href="mailto:infoname@mail.com">infoname@mail.com</Link>
                   </p>
                   <p>
                     <i className="fas fa-map-marker-alt me-2 text-theme" />
@@ -103,14 +103,14 @@ const FooterAreaThree = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link href="#">Fixturbo</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Tarms &amp; Condition</Link>
-                <Link to="/contact">Privacy Policy</Link>
-                <Link to="/contact">Contact Us</Link>
+                <Link href="/contact">Tarms &amp; Condition</Link>
+                <Link href="/contact">Privacy Policy</Link>
+                <Link href="/contact">Contact Us</Link>
               </div>
             </div>
           </div>

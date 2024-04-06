@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaThree = () => {
   return (
@@ -61,34 +62,31 @@ const BlogAreaThree = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img
-                        src="assets/img/blog/blog_s1_3.png"
-                        alt="Fixturbo"
-                      />
+                      <img src="assets/img/blog/blog_s1_3.png" alt="Fixturbo" />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           By admin
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           Comments (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Dependable Car Repair Solutions Professional Car
                           Repair Services
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         Read More <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -99,34 +97,31 @@ const BlogAreaThree = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img
-                        src="assets/img/blog/blog_s1_1.png"
-                        alt="Fixturbo"
-                      />
+                      <img src="assets/img/blog/blog_s1_1.png" alt="Fixturbo" />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           By admin
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           Comments (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Precision Auto WorksSolutions Professional Car Repair
                           Services
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         Read More <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -137,34 +132,31 @@ const BlogAreaThree = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img
-                        src="assets/img/blog/blog_s1_3.png"
-                        alt="Fixturbo"
-                      />
+                      <img src="assets/img/blog/blog_s1_3.png" alt="Fixturbo" />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           By admin
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           Comments (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Dependable Car Repair Solutions Professional Car
                           Repair Services
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         Read More <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -175,34 +167,31 @@ const BlogAreaThree = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img
-                        src="assets/img/blog/blog_s1_1.png"
-                        alt="Fixturbo"
-                      />
+                      <img src="assets/img/blog/blog_s1_1.png" alt="Fixturbo" />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           By admin
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           Comments (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Precision Auto WorksSolutions Professional Car Repair
                           Services
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         Read More <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>

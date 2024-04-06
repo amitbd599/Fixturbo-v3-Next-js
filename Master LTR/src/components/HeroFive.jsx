@@ -1,7 +1,7 @@
-import React from "react";
+'use client'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const HeroFive = () => {
   return (
     <div className="hero-wrapper hero-5">
@@ -36,10 +36,10 @@ const HeroFive = () => {
                         massa tempus in.
                       </p>
                       <div className="btn-group">
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           Learn About Us
                         </Link>
-                        <Link to="/service" className="btn style-border">
+                        <Link href="/service" className="btn style-border">
                           Our Service
                         </Link>
                       </div>
@@ -77,10 +77,10 @@ const HeroFive = () => {
                         massa tempus in.
                       </p>
                       <div className="btn-group">
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           Learn About Us
                         </Link>
-                        <Link to="/service" className="btn style-border">
+                        <Link href="/service" className="btn style-border">
                           Our Service
                         </Link>
                       </div>

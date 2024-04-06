@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HeroFour = () => {
   return (
@@ -38,10 +38,10 @@ const HeroFour = () => {
                 lacus. Etiam molestie justo neque, in convallis massa tempus in.
               </p>
               <div className="btn-group">
-                <Link to="/about" className="btn">
+                <Link href="/about" className="btn">
                   Learn More
                 </Link>
-                <Link to="/service" className="btn style-border">
+                <Link href="/service" className="btn style-border">
                   Our Service
                 </Link>
               </div>

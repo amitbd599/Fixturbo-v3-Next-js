@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
@@ -18,7 +19,10 @@ const ClientAreaThree = () => {
             <div className="col-sm-6 col-lg-auto">
               <div className="counter-card style2">
                 <div className="counter-card_icon">
-                  <img src="assets/img/icon/counter-icon_2-1.svg" alt="Fixturbo"/>
+                  <img
+                    src="assets/img/icon/counter-icon_2-1.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <div className="media-body">
                   <h2 className="counter-card_number">
@@ -39,7 +43,10 @@ const ClientAreaThree = () => {
             <div className="col-sm-6 col-lg-auto">
               <div className="counter-card style2">
                 <div className="counter-card_icon">
-                  <img src="assets/img/icon/counter-icon_2-2.svg" alt="Fixturbo"/>
+                  <img
+                    src="assets/img/icon/counter-icon_2-2.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <div className="media-body">
                   <h2 className="counter-card_number">
@@ -60,7 +67,10 @@ const ClientAreaThree = () => {
             <div className="col-sm-6 col-lg-auto">
               <div className="counter-card style2">
                 <div className="counter-card_icon">
-                  <img src="assets/img/icon/counter-icon_2-3.svg" alt="Fixturbo"/>
+                  <img
+                    src="assets/img/icon/counter-icon_2-3.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <div className="media-body">
                   <h2 className="counter-card_number">
@@ -81,7 +91,10 @@ const ClientAreaThree = () => {
             <div className="col-sm-6 col-lg-auto">
               <div className="counter-card style2">
                 <div className="counter-card_icon">
-                  <img src="assets/img/icon/counter-icon_2-4.svg" alt="Fixturbo"/>
+                  <img
+                    src="assets/img/icon/counter-icon_2-4.svg"
+                    alt="Fixturbo"
+                  />
                 </div>
                 <div className="media-body">
                   <h2 className="counter-card_number">
@@ -115,7 +128,7 @@ const ClientAreaThree = () => {
                   <h2 className="sec-title text-white">WHAT OUR CLIENT SAYS</h2>
                 </div>
                 <div className="quote-icon">
-                  <img src="assets/img/icon/quote2-1.svg" alt="Fixturbo"/>
+                  <img src="assets/img/icon/quote2-1.svg" alt="Fixturbo" />
                 </div>
                 <div className="row global-carousel testi-slider-2">
                   <Swiper
@@ -286,7 +299,7 @@ const ClientAreaThree = () => {
           </div>
         </div>
         <div className="testimonial-thumb-2">
-          <img src="assets/img/testimonial/2.png" alt="Fixturbo"/>
+          <img src="assets/img/testimonial/2.png" alt="Fixturbo" />
         </div>
       </div>
     </div>

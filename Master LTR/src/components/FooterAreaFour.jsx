@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const FooterAreaFour = () => {
   return (
@@ -17,16 +17,16 @@ const FooterAreaFour = () => {
                   It is a long established fact that a reader will be distracted
                 </p>
                 <div className="social-btn style3">
-                  <Link to="https://www.instagram.com/" tabIndex={-1}>
+                  <Link href="https://www.instagram.com/" tabIndex={-1}>
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="https://linkedin.com/" tabIndex={-1}>
+                  <Link href="https://linkedin.com/" tabIndex={-1}>
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="https://twitter.com/" tabIndex={-1}>
+                  <Link href="https://twitter.com/" tabIndex={-1}>
                     <i className="fab fa-twitter" />
                   </Link>
-                  <Link to="https://facebook.com/" tabIndex={-1}>
+                  <Link href="https://facebook.com/" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>
                 </div>
@@ -38,16 +38,16 @@ const FooterAreaFour = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Team</Link>
+                      <Link href="/team">Team</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Faq</Link>
+                      <Link href="/contact">Faq</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Privacy Policy</Link>
+                      <Link href="/contact">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -59,19 +59,19 @@ const FooterAreaFour = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">Mechanic Masters</Link>
+                      <Link href="/service">Mechanic Masters</Link>
                     </li>
                     <li>
-                      <Link to="/service">Speedy Auto Repair</Link>
+                      <Link href="/service">Speedy Auto Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service">Mobile Car Repair</Link>
+                      <Link href="/service">Mobile Car Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service">Pro Auto Fix</Link>
+                      <Link href="/service">Pro Auto Fix</Link>
                     </li>
                     <li>
-                      <Link to="/service">Precision Auto Works</Link>
+                      <Link href="/service">Precision Auto Works</Link>
                     </li>
                   </ul>
                 </div>
@@ -100,7 +100,7 @@ const FooterAreaFour = () => {
                     <div className="contact-grid-details">
                       <p>Phone Number</p>
                       <h6>
-                        <Link to="tel:888123456765">012 345 678 9101</Link>
+                        <Link href="tel:888123456765">012 345 678 9101</Link>
                         <p />
                       </h6>
                     </div>
@@ -112,7 +112,7 @@ const FooterAreaFour = () => {
                     <div className="contact-grid-details">
                       <p>Email Address</p>
                       <h6>
-                        <Link to="mailto:infoname@mail.com">
+                        <Link href="mailto:infoname@mail.com">
                           abcd@gmail.com
                         </Link>
                         <p />
@@ -130,14 +130,14 @@ const FooterAreaFour = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link href="#">Fixturbo</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Tarms &amp; Condition</Link>
-                <Link to="/contact">Privacy Policy</Link>
-                <Link to="/contact">Contact Us</Link>
+                <Link href="/contact">Tarms &amp; Condition</Link>
+                <Link href="/contact">Privacy Policy</Link>
+                <Link href="/contact">Contact Us</Link>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const IntroAreaTwo = () => {
   return (
@@ -24,7 +24,7 @@ const IntroAreaTwo = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   Buy Part’s <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
@@ -42,7 +42,7 @@ const IntroAreaTwo = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   Sell Your Part’s <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const IntroAreaTwo = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   Book Services <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
