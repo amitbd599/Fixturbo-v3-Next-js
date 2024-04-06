@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Breadcrumb = ({ title }) => {
   return (
@@ -11,7 +11,7 @@ const Breadcrumb = ({ title }) => {
               <h1 className="breadcumb-title">{title}</h1>
               <ul className="breadcumb-menu">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className="active">{title}</li>
               </ul>
