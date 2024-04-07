@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Wishlist = () => {
   return (
@@ -34,7 +34,7 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <Link to="/shop-details">
+                    <Link href="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-1.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
@@ -43,7 +43,7 @@ const Wishlist = () => {
                     </Link>
                   </td>
                   <td className="product-name">
-                    <Link to="/shop-details">Car Air Filter</Link>
+                    <Link href="/shop-details">Car Air Filter</Link>
                   </td>
                   <td className="product-price">
                     <span className="woocommerce-Price-amount amount">
@@ -85,7 +85,7 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <Link to="/shop-details">
+                    <Link href="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-2.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
@@ -94,7 +94,7 @@ const Wishlist = () => {
                     </Link>
                   </td>
                   <td className="product-name">
-                    <Link to="/shop-details">Engine pistons</Link>
+                    <Link href="/shop-details">Engine pistons</Link>
                   </td>
                   <td className="product-price">
                     <ins>
@@ -148,7 +148,7 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <Link to="/shop-details">
+                    <Link href="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-3.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
@@ -157,7 +157,7 @@ const Wishlist = () => {
                     </Link>
                   </td>
                   <td className="product-name">
-                    <Link to="/shop-details">Exhaust manifold</Link>
+                    <Link href="/shop-details">Exhaust manifold</Link>
                   </td>
                   <td className="product-price">
                     <ins>

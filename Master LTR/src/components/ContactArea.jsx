@@ -13,9 +13,9 @@ const ContactArea = () => {
                 </div>
                 <h6 className="contact-info_title">Address</h6>
                 <p className="contact-info_text">
-                  6391 Elgin St. Celina, Delaware
+                  6391 Celina, Delaware
                 </p>
-                <p className="contact-info_text">Mirpur Dhaka,Bangladesh</p>
+                <p className="contact-info_text">Mirpur,Bangladesh</p>
               </div>
             </div>
             <div className="col-xxl-3 col-lg-4 col-md-6">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Checkout = () => {
   return (
@@ -44,7 +44,7 @@ const Checkout = () => {
                 </div>
                 <ul className="footer-currency currency-area">
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <img
                         src="assets/img/update-img/payment-method/01.png"
                         alt="Fixturbo"
@@ -52,7 +52,7 @@ const Checkout = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <img
                         src="assets/img/update-img/payment-method/02.png"
                         alt="Fixturbo"
@@ -60,7 +60,7 @@ const Checkout = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <img
                         src="assets/img/update-img/payment-method/04.png"
                         alt="Fixturbo"
@@ -68,7 +68,7 @@ const Checkout = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <img
                         src="assets/img/update-img/payment-method/05.png"
                         alt="Fixturbo"

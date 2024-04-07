@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ProjectDetailsArea = () => {
   return (
@@ -132,7 +132,7 @@ const ProjectDetailsArea = () => {
                           It is a long established fact that a reader will be
                           distracted by the readable content{" "}
                         </p>
-                        <Link className="btn style2 mt-30" to="/contact">
+                        <Link className="btn style2 mt-30" href="/contact">
                           Lets Talk <i className="fas fa-arrow-right ms-2" />
                         </Link>
                       </div>

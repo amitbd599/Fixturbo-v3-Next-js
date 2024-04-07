@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+
 
 const ServiceAreaOne_multi_img = () => {
   return (
@@ -13,13 +13,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Auto Fixers</Link>
+                  <Link href="/service-details">Auto Fixers</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -35,13 +35,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Mechanic Masters</Link>
+                  <Link href="/service-details">Mechanic Masters</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -57,13 +57,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Drive-In Garage</Link>
+                  <Link href="/service-details">Drive-In Garage</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -79,13 +79,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-4.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Car Care Clinic</Link>
+                  <Link href="/service-details">Car Care Clinic</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -101,13 +101,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-5.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Car Repair Services</Link>
+                  <Link href="/service-details">Car Repair Services</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -123,13 +123,13 @@ const ServiceAreaOne_multi_img = () => {
                   <img src="assets/img/icon/service-icon_1-6.svg" alt="img" />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">Repair Solutions</Link>
+                  <Link href="/service-details">Repair Solutions</Link>
                 </h4>
                 <p className="service-card_text">
                   A car repair is a service provided to fix any issues or
                   damages with your{" "}
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+'use client'
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const ShopDetails = () => {
   return (
@@ -46,13 +46,13 @@ const ShopDetails = () => {
                 </span>
                 <span className="posted_in">
                   Category:{" "}
-                  <Link to="/shop" rel="tag">
+                  <Link href="/shop" rel="tag">
                     Tires &amp; Wheels
                   </Link>
                 </span>
                 <span>
-                  Tags: <Link to="/shop">Automotive parts</Link>
-                  <Link to="/shop">Wheels</Link>
+                  Tags: <Link href="/shop">Automotive parts</Link>
+                  <Link href="/shop">Wheels</Link>
                 </span>
               </div>
             </div>
@@ -189,7 +189,7 @@ const ShopDetails = () => {
                           scenarios
                         </p>
                         <div className="reply_and_edit">
-                          <Link to="/blog-details" className="reply-btn">
+                          <Link href="/blog-details" className="reply-btn">
                             Reply <i className="fas fa-reply" />
                           </Link>
                         </div>
@@ -215,7 +215,7 @@ const ShopDetails = () => {
                               for prospective application mlessly productivate
                             </p>
                             <div className="reply_and_edit">
-                              <Link to="/blog-details" className="reply-btn">
+                              <Link href="/blog-details" className="reply-btn">
                                 Reply <i className="fas fa-reply" />
                               </Link>
                             </div>
@@ -244,7 +244,7 @@ const ShopDetails = () => {
                           plug-and-play markets whereas synergistic scenarios.
                         </p>
                         <div className="reply_and_edit">
-                          <Link to="/blog-details" className="reply-btn">
+                          <Link href="/blog-details" className="reply-btn">
                             Reply <i className="fas fa-reply" />
                           </Link>
                         </div>
@@ -304,7 +304,7 @@ const ShopDetails = () => {
             </div>
             <div className="col-md-auto">
               <div className="sec-btn mb-40">
-                <Link to="/shop" className="btn style-border2">
+                <Link href="/shop" className="btn style-border2">
                   See More
                 </Link>
               </div>
@@ -348,7 +348,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">Engine pistons and cog</Link>
+                        <Link href="/shop-details">Engine pistons and cog</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -360,7 +360,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         Add to cart <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -378,7 +378,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">Exhaust manifold</Link>
+                        <Link href="/shop-details">Exhaust manifold</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -390,7 +390,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         Add to cart <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -408,7 +408,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">Windshield wiper motor</Link>
+                        <Link href="/shop-details">Windshield wiper motor</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -420,7 +420,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         Add to cart <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -438,7 +438,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">Power steering pump</Link>
+                        <Link href="/shop-details">Power steering pump</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -450,7 +450,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         Add to cart <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -468,7 +468,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">Windshield wiper motor</Link>
+                        <Link href="/shop-details">Windshield wiper motor</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -480,7 +480,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         Add to cart <i className="fas fa-arrow-right" />
                       </Link>
                     </div>

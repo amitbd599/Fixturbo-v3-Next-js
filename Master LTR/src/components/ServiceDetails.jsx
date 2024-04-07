@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ServiceDetails = () => {
   return (
@@ -91,31 +91,31 @@ const ServiceDetails = () => {
                 <h3 className="widget_title">All Services</h3>
                 <ul>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       <i className="fas fa-angle-double-right" />
                       Fast and Reliable Car Repair Design
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       <i className="fas fa-angle-double-right" />
                       Trusted Car Repair Professionals
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       <i className="fas fa-angle-double-right" />
                       Get Your Car Fixed Right Away
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       <i className="fas fa-angle-double-right" />
                       Quality Car Repair Services
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       <i className="fas fa-angle-double-right" />
                       Affordable Car Repair Solutions
                     </Link>
@@ -134,7 +134,7 @@ const ServiceDetails = () => {
                   </div>
                   <p className="widget-contact-text">Need help?</p>
                   <h5>
-                    <Link to="tel:80855510111">(808) 555-0111</Link>
+                    <Link href="tel:80855510111">(808) 555-0111</Link>
                   </h5>
                 </div>
               </div>

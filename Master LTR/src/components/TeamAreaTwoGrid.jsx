@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const TeamAreaTwoGrid = () => {
   return (
@@ -13,21 +13,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Darrell Steward</Link>
+                  <Link href="/team-details">Darrell Steward</Link>
                 </h4>
                 <span className="team-card_desig">Software Developer</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -42,21 +42,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Robert Fox</Link>
+                  <Link href="/team-details">Robert Fox</Link>
                 </h4>
                 <span className="team-card_desig">Project Manager</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -71,21 +71,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Ralph Edwards</Link>
+                  <Link href="/team-details">Ralph Edwards</Link>
                 </h4>
                 <span className="team-card_desig">Scrum Master</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -100,21 +100,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Wade Warren</Link>
+                  <Link href="/team-details">Wade Warren</Link>
                 </h4>
                 <span className="team-card_desig">Development Manager</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -129,21 +129,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Kristin Watson</Link>
+                  <Link href="/team-details">Kristin Watson</Link>
                 </h4>
                 <span className="team-card_desig">Ethical Hacker</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -158,21 +158,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Courtney Henry</Link>
+                  <Link href="/team-details">Courtney Henry</Link>
                 </h4>
                 <span className="team-card_desig">Software Developer</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>

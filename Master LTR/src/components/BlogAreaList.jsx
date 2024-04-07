@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const BlogAreaList = () => {
   return (
@@ -13,17 +13,17 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-user" />
                     By admin
                   </Link>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-comments" />
                     Comments (05)
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Dependable Car Repair Solutio Professional Car Repair
                     Services
                   </Link>
@@ -33,12 +33,12 @@ const BlogAreaList = () => {
                   quis venenatis cras sed eu massa eu faucibus. Urna fusce
                   aenean tortor pretium. Ac{" "}
                 </p>
-                <Link to="/blog-details" className="btn style-border2">
+                <Link href="/blog-details" className="btn style-border2">
                   {" "}
                   READ MORE <i className="fas fa-arrow-right" />
                 </Link>
                 <div className="blog-date">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <span>17</span>Feb
                   </Link>
                 </div>
@@ -50,17 +50,17 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-user" />
                     By admin
                   </Link>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-comments" />
                     Comments (05)
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Precision Repairs Personal Service Turning Wrenches Building
                     Trust
                   </Link>
@@ -70,12 +70,12 @@ const BlogAreaList = () => {
                   quis venenatis cras sed eu massa eu faucibus. Urna fusce
                   aenean tortor pretium. Ac{" "}
                 </p>
-                <Link to="/blog-details" className="btn style-border2">
+                <Link href="/blog-details" className="btn style-border2">
                   {" "}
                   READ MORE <i className="fas fa-arrow-right" />
                 </Link>
                 <div className="blog-date">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <span>17</span>Feb
                   </Link>
                 </div>
@@ -87,17 +87,17 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-user" />
                     By admin
                   </Link>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-comments" />
                     Comments (05)
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Fixing Cars Fulfilling Dreams Gear Up for Seamless Driving
                   </Link>
                 </h3>
@@ -106,12 +106,12 @@ const BlogAreaList = () => {
                   quis venenatis cras sed eu massa eu faucibus. Urna fusce
                   aenean tortor pretium. Ac{" "}
                 </p>
-                <Link to="/blog-details" className="btn style-border2">
+                <Link href="/blog-details" className="btn style-border2">
                   {" "}
                   READ MORE <i className="fas fa-arrow-right" />
                 </Link>
                 <div className="blog-date">
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <span>17</span>Feb
                   </Link>
                 </div>
@@ -120,16 +120,16 @@ const BlogAreaList = () => {
             <div className="pagination justify-content-center">
               <ul>
                 <li>
-                  <Link to="/blog">1</Link>
+                  <Link href="/blog">1</Link>
                 </li>
                 <li>
-                  <Link to="/blog">2</Link>
+                  <Link href="/blog">2</Link>
                 </li>
                 <li>
-                  <Link to="/blog">3</Link>
+                  <Link href="/blog">3</Link>
                 </li>
                 <li>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-angle-right" />
                   </Link>
                 </li>
@@ -151,27 +151,27 @@ const BlogAreaList = () => {
                 <h3 className="widget_title">Category</h3>
                 <ul>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       Precision Auto Works <span>(4)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       Mobile Car Repair <span>(5)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       Elite Automotive Service <span>(8)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       Pro Auto Fix <span>(4)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       Drive-In Garage <span>(3)</span>
                     </Link>
                   </li>
@@ -183,16 +183,16 @@ const BlogAreaList = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           Quick Fix Motors
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">Sep 15, 2024</Link>
+                        <Link href="/blog">Sep 15, 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post1.png"
                           alt="Fixturbo"
@@ -203,16 +203,16 @@ const BlogAreaList = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           Professional Service
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">Jun 25, 2024</Link>
+                        <Link href="/blog">Jun 25, 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post2.png"
                           alt="Fixturbo"
@@ -223,16 +223,16 @@ const BlogAreaList = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           Gear Wrench Auto
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">Jun 25, 2024</Link>
+                        <Link href="/blog">Jun 25, 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post3.png"
                           alt="Fixturbo"
@@ -245,15 +245,15 @@ const BlogAreaList = () => {
               <div className="widget widget_tag_cloud">
                 <h3 className="widget_title">Tags</h3>
                 <div className="tagcloud">
-                  <Link to="/blog">Mechanic</Link>
-                  <Link to="/blog">Auto Fixers</Link>
-                  <Link to="/blog">Car Fix</Link>
-                  <Link to="/blog">Pro Auto Fix</Link>
-                  <Link to="/blog">Service</Link>
-                  <Link to="/blog">Auto Fix</Link>
-                  <Link to="/blog">Auto Repair</Link>
-                  <Link to="/blog">Masters</Link>
-                  <Link to="/blog">Automotive</Link>
+                  <Link href="/blog">Mechanic</Link>
+                  <Link href="/blog">Auto Fixers</Link>
+                  <Link href="/blog">Car Fix</Link>
+                  <Link href="/blog">Pro Auto Fix</Link>
+                  <Link href="/blog">Service</Link>
+                  <Link href="/blog">Auto Fix</Link>
+                  <Link href="/blog">Auto Repair</Link>
+                  <Link href="/blog">Masters</Link>
+                  <Link href="/blog">Automotive</Link>
                 </div>
               </div>
             </aside>

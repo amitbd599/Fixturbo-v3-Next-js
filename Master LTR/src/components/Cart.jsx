@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Cart = () => {
   return (
@@ -20,7 +20,7 @@ const Cart = () => {
             <tbody>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <Link className="cart-productimage" to="/shop-details">
+                  <Link className="cart-productimage" href="/shop-details">
                     <img
                       width={91}
                       height={91}
@@ -30,7 +30,7 @@ const Cart = () => {
                   </Link>
                 </td>
                 <td data-title="Name">
-                  <Link className="cart-productname" to="/shop-details">
+                  <Link className="cart-productname" href="/shop-details">
                     Car Engine Plug
                   </Link>
                 </td>
@@ -66,14 +66,14 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <Link to="#" className="remove">
+                  <Link href="#" className="remove">
                     <i className="fas fa-trash-alt" />
                   </Link>
                 </td>
               </tr>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <Link className="cart-productimage" to="/shop-details">
+                  <Link className="cart-productimage" href="/shop-details">
                     <img
                       width={91}
                       height={91}
@@ -83,7 +83,7 @@ const Cart = () => {
                   </Link>
                 </td>
                 <td data-title="Name">
-                  <Link className="cart-productname" to="/shop-details">
+                  <Link className="cart-productname" href="/shop-details">
                     Car Air Filter
                   </Link>
                 </td>
@@ -119,14 +119,14 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <Link to="#" className="remove">
+                  <Link href="#" className="remove">
                     <i className="fas fa-trash-alt" />
                   </Link>
                 </td>
               </tr>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <Link className="cart-productimage" to="/shop-details">
+                  <Link className="cart-productimage" href="/shop-details">
                     <img
                       width={91}
                       height={91}
@@ -136,7 +136,7 @@ const Cart = () => {
                   </Link>
                 </td>
                 <td data-title="Name">
-                  <Link className="cart-productname" to="/shop-details">
+                  <Link className="cart-productname" href="/shop-details">
                     CSK Red Wheel
                   </Link>
                 </td>
@@ -172,7 +172,7 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <Link to="#" className="remove">
+                  <Link href="#" className="remove">
                     <i className="fas fa-trash-alt" />
                   </Link>
                 </td>
@@ -182,7 +182,7 @@ const Cart = () => {
                   <button type="submit" className="btn style2">
                     Update cart
                   </button>
-                  <Link to="/shop" className="btn style-border3">
+                  <Link href="/shop" className="btn style-border3">
                     Continue Shopping
                   </Link>
                 </td>
@@ -222,7 +222,7 @@ const Cart = () => {
               </tfoot>
             </table>
             <div className="wc-proceed-to-checkout mb-30">
-              <Link to="/checkout" className="btn style2 btn-fw">
+              <Link href="/checkout" className="btn style2 btn-fw">
                 Proceed to checkout
               </Link>
             </div>

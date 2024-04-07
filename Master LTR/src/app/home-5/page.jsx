@@ -1,57 +1,67 @@
-
+import AboutOne from "@/components/AboutOne";
 import BlogAreaTwo from "@/components/BlogAreaTwo";
-import CTAAreaTwo from "@/components/CTAAreaTwo";
-import CategoryAreaOne from "@/components/CategoryAreaOne";
-import ClientAreaFour from "@/components/ClientAreaFour";
-import FaqAreaThree from "@/components/FaqAreaThree";
-import FooterAreaFour from "@/components/FooterAreaFour";
-import HeaderFive from "@/components/HeaderFive";
-import HeroSix from "@/components/HeroSix";
-import ProductAreaOne from "@/components/ProductAreaOne";
-import ProductAreaTwo from "@/components/ProductAreaTwo";
-import SubscribeTwo from "@/components/SubscribeTwo";
+import ClientAreaThree from "@/components/ClientAreaThree";
+import FooterAreaThree from "@/components/FooterAreaThree";
+import HeaderFour from "@/components/HeaderFour";
+import HeroFive from "@/components/HeroFive";
+import IntroAreaTwo from "@/components/IntroAreaTwo";
+import PortfolioThree from "@/components/PortfolioThree";
+import ServiceAreaFour from "@/components/ServiceAreaFour";
+import ServiceAreaThree from "@/components/ServiceAreaThree";
+import TeamAreaFour from "@/components/TeamAreaFour";
+import WhyChooseUsTwo from "@/components/WhyChooseUsTwo";
 import Preloader from "@/helper/Preloader";
+
+export const metadata = {
+  title: "Home || Fixturbo - Car Repair & Auto Services NEXT Js Template",
+  description:
+    "Fixturbo is a clean and modern React Template suitable for any type of Auto Servicing, Car Repair & Maintenance website. It is created for automobile servicing providers who offer car wash, car service, routine maintenance, truck service, etc. This HTML template can be used for car servicing, car repairing, car wash, auto shop, mechanic shop, batteries shop, tire / wheel shop, and multipurpose businesses. We have used comment on codes and also decorated the codes beautifully so one can find it very easy to customize.",
+};
+
 
 const page = () => {
   return (
     <>
       {/* Preloader */}
-  <Preloader />
+      <Preloader />
 
-      {/* Header Five */}
-      <HeaderFive />
+      {/* Header Four */}
+      <HeaderFour />
 
-      {/* Hero Six */}
-      <HeroSix />
+      {/* Hero Five */}
+      <HeroFive />
 
-      {/* Category Area One */}
-      <CategoryAreaOne />
+      {/* Service Area Three */}
+      <ServiceAreaThree />
 
-      {/* Product Area One */}
-      <ProductAreaOne />
+      {/* About One */}
+      <AboutOne />
 
-      {/* CTA Area Two */}
-      <CTAAreaTwo />
+      {/* Service Area Four */}
+      <ServiceAreaFour />
 
-      {/* Product Area Two */}
-      <ProductAreaTwo />
+      {/* Why Choose Us Two */}
+      <WhyChooseUsTwo />
 
-      {/* Faq Area three */}
-      <FaqAreaThree />
+      {/* Portfolio Three */}
+      <PortfolioThree />
 
-      {/* Client Area Four */}
-      <ClientAreaFour />
+      {/* Intro Area Two */}
+      <IntroAreaTwo />
 
-      {/* Blog Area Two */}
+      {/* Team Area Four */}
+      <TeamAreaFour />
+
+      {/* ClientAreaThree */}
+      <ClientAreaThree />
+
+      {/* BlogAreaTwo */}
       <div className="space-top">
         <BlogAreaTwo />
-      </div>
+        </div>
 
-      {/* Subscribe Two */}
-      <SubscribeTwo />
-
-      {/* Footer Area Four */}
-      <FooterAreaFour />
+      {/* Footer Area Three */}
+      <FooterAreaThree />
     </>
   );
 };

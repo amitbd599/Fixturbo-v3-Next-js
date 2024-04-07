@@ -1,6 +1,7 @@
+'use client'
 import React, { useState } from "react";
 import Slider from "rc-slider";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ShopArea = () => {
   const [range, setRange] = useState([0, 100]);
@@ -57,7 +58,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Engine pistons and cog</Link>
+                      <Link href="/shop-details">Engine pistons and cog</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -69,7 +70,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -85,7 +86,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Exhaust manifold</Link>
+                      <Link href="/shop-details">Exhaust manifold</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -97,7 +98,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -113,7 +114,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Windshield wiper motor</Link>
+                      <Link href="/shop-details">Windshield wiper motor</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -125,7 +126,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -141,7 +142,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Power steering pump</Link>
+                      <Link href="/shop-details">Power steering pump</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -153,7 +154,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -169,7 +170,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Windshield wiper motor</Link>
+                      <Link href="/shop-details">Windshield wiper motor</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -181,7 +182,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -197,7 +198,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Exhaust manifold</Link>
+                      <Link href="/shop-details">Exhaust manifold</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -209,7 +210,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -225,7 +226,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Engine pistons and cog</Link>
+                      <Link href="/shop-details">Engine pistons and cog</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -237,7 +238,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -253,7 +254,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Exhaust manifold</Link>
+                      <Link href="/shop-details">Exhaust manifold</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -265,7 +266,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -281,7 +282,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">Windshield wiper motor</Link>
+                      <Link href="/shop-details">Windshield wiper motor</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -293,7 +294,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       Add to cart <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -303,16 +304,16 @@ const ShopArea = () => {
             <div className="pagination justify-content-center mt-70">
               <ul>
                 <li>
-                  <Link to="/blog">1</Link>
+                  <Link href="/blog">1</Link>
                 </li>
                 <li>
-                  <Link to="/blog">2</Link>
+                  <Link href="/blog">2</Link>
                 </li>
                 <li>
-                  <Link to="/blog">3</Link>
+                  <Link href="/blog">3</Link>
                 </li>
                 <li>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-angle-right" />
                   </Link>
                 </li>
@@ -334,31 +335,31 @@ const ShopArea = () => {
                 <h3 className="widget_title">Product categories</h3>
                 <ul>
                   <li>
-                    <Link to="/service-details">Steering wheel</Link>
+                    <Link href="/service-details">Steering wheel</Link>
                     <span>(12)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Suspension spring</Link>{" "}
+                    <Link href="/service-details">Suspension spring</Link>{" "}
                     <span>(12)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Tail light</Link>
+                    <Link href="/service-details">Tail light</Link>
                     <span>(08)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Transmission</Link>
+                    <Link href="/service-details">Transmission</Link>
                     <span>(13)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Windshield wiper motor</Link>
+                    <Link href="/service-details">Windshield wiper motor</Link>
                     <span>(03)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Fuel injector</Link>
+                    <Link href="/service-details">Fuel injector</Link>
                     <span>(03)</span>
                   </li>
                   <li>
-                    <Link to="/service-details">Find your product</Link>
+                    <Link href="/service-details">Find your product</Link>
                     <span>(03)</span>
                   </li>
                 </ul>
