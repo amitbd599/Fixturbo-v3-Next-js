@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+"use client"
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaOne = () => {
   return (
