@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html dir="rtl" class="no-js" lang="zxx">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <BootstrapInit />
       <body suppressHydrationWarning={true}>{children}</body>

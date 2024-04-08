@@ -1,7 +1,7 @@
-import React from "react";
+"use client";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
-import { Link } from "react-router-dom";
 const PortfolioTwo = () => {
   return (
     <div className="portfolio-area-1 space overflow-hidden">
@@ -82,13 +82,13 @@ const PortfolioTwo = () => {
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
+                        <Link href="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <Link to="/project-details" className="icon-btn">
+                    <Link href="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -107,13 +107,13 @@ const PortfolioTwo = () => {
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
+                        <Link href="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <Link to="/project-details" className="icon-btn">
+                    <Link href="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -132,13 +132,13 @@ const PortfolioTwo = () => {
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
+                        <Link href="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <Link to="/project-details" className="icon-btn">
+                    <Link href="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -157,13 +157,13 @@ const PortfolioTwo = () => {
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
+                        <Link href="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <Link to="/project-details" className="icon-btn">
+                    <Link href="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -182,13 +182,13 @@ const PortfolioTwo = () => {
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
+                        <Link href="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <Link to="/project-details" className="icon-btn">
+                    <Link href="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>

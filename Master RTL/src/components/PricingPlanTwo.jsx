@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const PricingPlanTwo = () => {
   return (
@@ -55,7 +54,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   احصل على هذه الخطة
                 </Link>
               </div>
@@ -95,7 +94,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   احصل على هذه الخطة
                 </Link>
               </div>
@@ -137,7 +136,7 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <Link className="btn" to="/about">
+                <Link className="btn" href="/about">
                   احصل على هذه الخطة
                 </Link>
               </div>

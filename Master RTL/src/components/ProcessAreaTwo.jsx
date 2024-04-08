@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ProcessAreaTwo = () => {
   return (
@@ -32,7 +31,7 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
               </Link>
             </div>
@@ -45,7 +44,7 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
               </Link>
             </div>
@@ -58,7 +57,7 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <Link to="/service-details" className="link-btn style2">
+              <Link href="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
               </Link>
             </div>

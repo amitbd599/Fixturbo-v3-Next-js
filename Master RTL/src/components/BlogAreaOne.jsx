@@ -64,28 +64,28 @@ const BlogAreaOne = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>رائع
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           ب. المشرف
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           حلول إصلاح شار التي يمكن الاعتماد عليها خدمات إصلاح
                           شار الاحترافية
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
                       </Link>
                     </div>
@@ -101,27 +101,27 @@ const BlogAreaOne = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>رائع
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user"></i>ب. المشرف
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           حلول الفرامل الأوتوماتيكية الدقيقة خدمات إصلاح شار
                           الاحترافية
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اقرأ أكثر<i className="fas fa-arrow-left ms-2"></i>
                       </Link>
                     </div>
@@ -137,27 +137,27 @@ const BlogAreaOne = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>رائع
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user"></i>ب. المشرف
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           حلول إصلاح شار التي يمكن الاعتماد عليها خدمات إصلاح
                           شار الاحترافية
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
                       </Link>
                     </div>
@@ -173,29 +173,29 @@ const BlogAreaOne = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>رائع
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           ب. المشرف
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           تعليقات (05)
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           حلول الفرامل الأوتوماتيكية الدقيقة خدمات إصلاح شار
                           الاحترافية
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
                       </Link>
                     </div>

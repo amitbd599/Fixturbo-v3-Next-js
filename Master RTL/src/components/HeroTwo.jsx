@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HeroTwo = () => {
   return (
@@ -33,7 +32,7 @@ const HeroTwo = () => {
                 لاكوس موريس الاتحاد الأوروبي العاقل لاكوس
               </p>
               <div className="btn-group">
-                <Link to="/about" className="btn">
+                <Link href="/about" className="btn">
                   يتعلم أكثر
                 </Link>
                 <div className="call-media-wrap">

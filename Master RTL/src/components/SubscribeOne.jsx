@@ -8,7 +8,7 @@ const SubscribeOne = () => {
         style={{ backgroundImage: "url(assets/img/bg/footer-top-bg1-1.png)" }}
       >
         <div className="footer-logo">
-          <Link to="/">
+          <Link href="/">
             <img src="assets/img/logo-white.svg" alt="Fixturbo" />
           </Link>
         </div>
@@ -26,13 +26,13 @@ const SubscribeOne = () => {
           </div>
         </div>
         <div className="social-btn">
-          <Link to="https://facebook.com/">
+          <Link href="https://facebook.com/">
             <i className="fab fa-facebook-f" />
           </Link>
-          <Link to="https://twitter.com/">
+          <Link href="https://twitter.com/">
             <i className="fab fa-twitter" />
           </Link>
-          <Link to="https://instagram.com/">
+          <Link href="https://instagram.com/">
             <i className="fab fa-instagram" />
           </Link>
         </div>

@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import Link from "next/link";
 
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
@@ -53,7 +55,7 @@ const HeaderTwo = () => {
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
-                <Link to="/">
+                <Link href="/">
                   <img src="assets/img/logo.svg" alt="logo" />
                 </Link>
               </div>
@@ -92,7 +94,7 @@ const HeaderTwo = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link href="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
                   </Link>
                 </div>
@@ -101,236 +103,194 @@ const HeaderTwo = () => {
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-children">
-                      <Link to="#">بيت</Link>
+                      <Link href="#">بيت</Link>
                       <ul className="sub-menu">
                         <li>
-                          <NavLink
-                            to="/home-1"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-1"
+                            
                           >
                             الصفحة الرئيسية 01
-                          </NavLink>
+                          </Link>
                         </li>
                         <li>
-                          <NavLink
-                            to="/home-2"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-2"
+                            
                           >
                             الصفحة الرئيسية 02
-                          </NavLink>
+                          </Link>
                         </li>
                         <li>
-                          <NavLink
-                            to="/home-3"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-3"
+                            
                           >
                             الصفحة الرئيسية 03
-                          </NavLink>
+                          </Link>
                         </li>
                         <li>
-                          <NavLink
-                            to="/home-4"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-4"
+                            
                           >
                             الصفحة الرئيسية 04
-                          </NavLink>
+                          </Link>
                         </li>
                         <li>
-                          <NavLink
-                            to="/home-5"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-5"
+                            
                           >
                             الصفحة الرئيسية 05
-                          </NavLink>
+                          </Link>
                         </li>
                         <li>
-                          <NavLink
-                            to="/home-6"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
+                          <Link
+                            href="/home-6"
+                            
                           >
                             الصفحة الرئيسية 06
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/about"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        عن
-                      </NavLink>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <Link to="#">الصفحات</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/team"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            فريق
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/team-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            تفاصيل الفريق
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/shop"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            محل
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/shop-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            تفاصيل المتجر
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/cart"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            عربة التسوق
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/checkout"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            الدفع
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/wishlist"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            قائمة الرغبات
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <Link to="#">المشاريع</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/project"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            مشروع
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/project-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            تفاصيل المشروع
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <Link to="#">خدمات</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/service"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            خدمة
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/service-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            تفاصيل الخدمة
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <Link to="#">مدونة</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/blog"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            مدونة
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/blog-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            تفاصيل المدونة
-                          </NavLink>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li>
                       <Link
-                        to="/contact"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                        href="/about"
+                        
+                      >
+                        عن
+                      </Link>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <Link href="#">الصفحات</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <Link
+                            href="/team"
+                            
+                          >
+                            فريق
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/team-details"
+                            
+                          >
+                            تفاصيل الفريق
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/shop"
+                            
+                          >
+                            محل
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/shop-details"
+                            
+                          >
+                            تفاصيل المتجر
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/cart"
+                            
+                          >
+                            عربة التسوق
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/checkout"
+                            
+                          >
+                            الدفع
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/wishlist"
+                            
+                          >
+                            قائمة الرغبات
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <Link href="#">المشاريع</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <Link
+                            href="/project"
+                            
+                          >
+                            مشروع
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/project-details"
+                            
+                          >
+                            تفاصيل المشروع
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <Link href="#">خدمات</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <Link
+                            href="/service"
+                            
+                          >
+                            خدمة
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/service-details"
+                            
+                          >
+                            تفاصيل الخدمة
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <Link href="#">مدونة</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <Link
+                            href="/blog"
+                            
+                          >
+                            مدونة
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/blog-details"
+                            
+                          >
+                            تفاصيل المدونة
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <Link
+                        href="/contact"
+                        
                       >
                         اتصال
                       </Link>
@@ -371,7 +331,7 @@ const HeaderTwo = () => {
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/">
+              <Link href="/">
                 <img src="assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
@@ -381,290 +341,242 @@ const HeaderTwo = () => {
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">بيت</Link>
+                  <Link href="#">بيت</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/home-1"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-1"
+                        
                       >
                         الصفحة الرئيسية 01
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/home-2"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-2"
+                        
                       >
                         الصفحة الرئيسية 02
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/home-3"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-3"
+                        
                       >
                         الصفحة الرئيسية 03
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/home-4"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-4"
+                        
                       >
                         الصفحة الرئيسية 04
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/home-5"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-5"
+                        
                       >
                         الصفحة الرئيسية 05
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/home-6"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/home-6"
+                        
                       >
                         الصفحة الرئيسية 06
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <NavLink
-                    to="/about"
-                    className={(navData) => (navData.isActive ? "active" : "")}
+                  <Link
+                    href="/about"
+                    
                   >
                     عن
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">الصفحات</Link>
+                  <Link href="#">الصفحات</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/team"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/team"
+                        
                       >
                         فريق
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/team-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/team-details"
+                        
                       >
                         تفاصيل الفريق
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/shop"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/shop"
+                        
                       >
                         محل{" "}
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/shop-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/shop-details"
+                        
                       >
                         تفاصيل المتجر
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/cart"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/cart"
+                        
                       >
                         عربة التسوق
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/checkout"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/checkout"
+                        
                       >
                         الدفع
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/wishlist"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/wishlist"
+                        
                       >
                         قائمة الرغبات
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">المشاريع</Link>
+                  <Link href="#">المشاريع</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/project"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/project"
+                        
                       >
                         مشروع
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/project-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/project-details"
+                        
                       >
                         تفاصيل المشروع
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">خدمة</Link>
+                  <Link href="#">خدمة</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/service"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/service"
+                        
                       >
                         خدمة
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/service-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/service-details"
+                        
                       >
                         تفاصيل الخدمة
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">محل</Link>
+                  <Link href="#">محل</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/shop"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/shop"
+                        
                       >
                         محل
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/shop-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/shop-details"
+                        
                       >
                         تفاصيل المتجر
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/cart"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/cart"
+                        
                       >
                         عربة التسوق
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/checkout"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/checkout"
+                        
                       >
                         الدفع
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/wishlist"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/wishlist"
+                        
                       >
                         قائمة الرغبات
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">مدونة</Link>
+                  <Link href="#">مدونة</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <NavLink
-                        to="/blog"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/blog"
+                        
                       >
                         مدونة
-                      </NavLink>
+                      </Link>
                     </li>
                     <li>
-                      <NavLink
-                        to="/blog-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
+                      <Link
+                        href="/blog-details"
+                        
                       >
                         تفاصيل المدونة
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <NavLink
-                    to="/contact"
-                    className={(navData) => (navData.isActive ? "active" : "")}
+                  <Link
+                    href="/contact"
+                    
                   >
                     اتصال
-                  </NavLink>
+                  </Link>
                 </li>
               </ul>
             </div>
