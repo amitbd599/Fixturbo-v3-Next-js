@@ -1,9 +1,9 @@
-import React from "react";
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const IntroAreaOne = () => {
   return (
     <div
@@ -147,7 +147,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -163,7 +163,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -179,7 +179,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -195,7 +195,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -211,7 +211,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
@@ -227,7 +227,7 @@ const IntroAreaOne = () => {
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <Link className="btn" to="/shop">
+                    <Link className="btn" href="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
                     </Link>
                   </div>

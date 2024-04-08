@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ServiceAreaFour = () => {
   return (
@@ -39,7 +38,7 @@ const ServiceAreaFour = () => {
                     />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">ماجستير ميكانيكا</Link>
+                    <Link href="/service-details">ماجستير ميكانيكا</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي
@@ -65,7 +64,7 @@ const ServiceAreaFour = () => {
                     />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">إصلاح السيارات السريع</Link>
+                    <Link href="/service-details">إصلاح السيارات السريع</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي
@@ -91,7 +90,7 @@ const ServiceAreaFour = () => {
                     />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">الدقة لأعمال السيارات</Link>
+                    <Link href="/service-details">الدقة لأعمال السيارات</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي

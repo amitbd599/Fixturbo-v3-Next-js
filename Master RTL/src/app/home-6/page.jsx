@@ -23,7 +23,7 @@ const page = () => {
   return (
     <>
       {/* Preloader */}
-  <Preloader />
+      <Preloader />
 
       {/* Header Five */}
       <HeaderFive />

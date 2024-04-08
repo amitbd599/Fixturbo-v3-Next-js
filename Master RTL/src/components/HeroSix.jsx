@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HeroSix = () => {
   return (
@@ -20,7 +19,7 @@ const HeroSix = () => {
                 <span className="sub-title">لفريق صيلفريق</span>
                 <h1 className="hero-title">صيل فريقصيلفريق</h1>
                 <div className="btn-group">
-                  <Link to="/shop" className="btn style2 style-radius">
+                  <Link href="/shop" className="btn style2 style-radius">
                     صي لفريق
                   </Link>
                   <span className="offer-tag">صي فريق %20 صيلفريق</span>
@@ -47,9 +46,9 @@ const HeroSix = () => {
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">فر قصي لفريق $5.00</h6>
                 <h4 className="intro-card-title">
-                  <Link to="#">صيل فريقص يلفريق</Link>
+                  <Link href="#">صيل فريقص يلفريق</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   صيل يلفريق
                   <i className="fas fa-arrow-left ms-2" />
                 </Link>
@@ -70,9 +69,9 @@ const HeroSix = () => {
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">فر قصي لفريق $5.00</h6>
                 <h4 className="intro-card-title">
-                  <Link to="#">صيل فريقص يلفريق</Link>
+                  <Link href="#">صيل فريقص يلفريق</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   صيل يلفريق
                   <i className="fas fa-arrow-left ms-2" />
                 </Link>
@@ -92,9 +91,9 @@ const HeroSix = () => {
                   فر قصي لفريق $5.00
                 </h6>
                 <h4 className="intro-card-title text-white">
-                  <Link to="#">صيل فريقص يلفريق</Link>
+                  <Link href="#">صيل فريقص يلفريق</Link>
                 </h4>
-                <Link to="/shop" className="btn style5 style-radius">
+                <Link href="/shop" className="btn style5 style-radius">
                   صيل يلفريق
                   <i className="fas fa-arrow-left ms-2" />
                 </Link>

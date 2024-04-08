@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const IntroAreaTwo = () => {
   return (
@@ -25,7 +24,7 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>
@@ -44,7 +43,7 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>
@@ -63,7 +62,7 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <Link className="btn style-border3" to="/service">
+                <Link className="btn style-border3" href="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>

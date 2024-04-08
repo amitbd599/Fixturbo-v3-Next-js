@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaThree = () => {
   return (
@@ -66,28 +67,28 @@ const BlogAreaThree = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -103,28 +104,28 @@ const BlogAreaThree = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -140,28 +141,28 @@ const BlogAreaThree = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>
@@ -177,28 +178,28 @@ const BlogAreaThree = () => {
                         alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <span>17</span>Feb
                         </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
                         </Link>
-                        <Link to="/blog">
+                        <Link href="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
                         </Link>
                       </div>
                       <h3 className="blog-title">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <Link className="btn style-border3" to="/blog-details">
+                      <Link className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </Link>
                     </div>

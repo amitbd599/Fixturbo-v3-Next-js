@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const WhyChooseUsTwo = () => {
   return (
@@ -90,7 +89,7 @@ const WhyChooseUsTwo = () => {
                 </div>
               </div>
               <div className="btn-wrap mt-40">
-                <Link to="/about" className="btn style2">
+                <Link href="/about" className="btn style2">
                   اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>

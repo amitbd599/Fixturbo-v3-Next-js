@@ -1,9 +1,15 @@
-import React, { useEffect, useState } from "react";
-import Isotope from "isotope-layout";
+'use client'
+import React, { useEffect, useRef, useState } from "react";
 import imagesLoaded from "imagesloaded";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const ProductAreaOne = () => {
-  const isotope = React.useRef(Isotope | null);
+  var Isotope;
+
+  if (typeof window !== "undefined") {
+    Isotope = require("isotope-layout");
+  }
+
+  const isotope = useRef(Isotope | null);
   const [active, setActive] = useState(1);
 
   // handling filter key change
@@ -73,7 +79,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -85,7 +91,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -101,7 +107,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -113,7 +119,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -132,7 +138,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -144,7 +150,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -160,7 +166,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -172,7 +178,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -188,7 +194,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -200,7 +206,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -220,7 +226,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -232,7 +238,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -248,7 +254,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -260,7 +266,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -280,7 +286,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
+                  <Link href="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -292,7 +298,7 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
                 </Link>
               </div>

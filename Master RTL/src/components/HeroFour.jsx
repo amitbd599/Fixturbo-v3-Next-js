@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HeroFour = () => {
   return (
@@ -38,10 +37,10 @@ const HeroFour = () => {
                 اشترك في اشترك في النشرة الإخبارية
               </p>
               <div className="btn-group">
-                <Link to="/about" className="btn">
+                <Link href="/about" className="btn">
                   على التحديثات
                 </Link>
-                <Link to="/service" className="btn style-border">
+                <Link href="/service" className="btn style-border">
                   للحصول على
                 </Link>
               </div>

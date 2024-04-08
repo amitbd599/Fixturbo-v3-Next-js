@@ -1,7 +1,7 @@
-import React from "react";
+"use client";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
 const HeroThree = () => {
   return (
     <div className="hero-wrapper hero-3">
@@ -37,7 +37,7 @@ const HeroThree = () => {
                             src="assets/img/hero/hero_shape_3.png"
                             alt="fixturbo_img"
                           />
-                          Welcome Fixturbo
+                          مرحبا بكم فيكستوربو
                         </span>{" "}
                       </div>
                       <h1
@@ -45,24 +45,22 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.1s"
                       >
-                        Revive, Repair, Relish the Ride!
+                        إحياء، إصلاح، استمتع بالرحلة!
                       </h1>
                       <p
                         className="hero-text text-white"
                         data-ani="slideinup"
                         data-ani-delay="0.2s"
                       >
-                        Vestibulum rhoncus nisl ac gravida porta. Mauris eu
-                        sapien lacus. Etiam molestie justo neque, in convallis
-                        massa tempus in.
+                    إذا لم يكن أي عميل مهتمًا بالحصول على الخدمة بعد الزيارة، فسيتم تطبيق رسوم الزيارة الوحيدة. ومع ذلك، إذا وافق العميل على الاستفادة من هذه الخدمة، فلن يتم تطبيق رسوم الفحص هذه.
                       </p>
                       <div
                         className="btn-group"
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <Link to="/about" className="btn">
-                          Learn More
+                        <Link href="/about" className="btn">
+                        يتعلم أكثر
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
@@ -73,7 +71,7 @@ const HeroThree = () => {
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
-                              Requesting A Call:
+                            طلب مكالمة:
                             </h6>
                             <h4 className="link">
                               <a className="text-white" href="tel:6295550129">
@@ -124,7 +122,7 @@ const HeroThree = () => {
                             src="assets/img/hero/hero_shape_3.png"
                             alt="fixturbo_img"
                           />
-                          Welcome Fixturbo
+                          مرحبا بكم فيكستوربو
                         </span>{" "}
                       </div>
                       <h1
@@ -132,24 +130,22 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.1s"
                       >
-                        Smooth Rides, Seamless Repairs.
+                        قيادة سلسة وإصلاحات سلسة.
                       </h1>
                       <p
                         className="hero-text text-white"
                         data-ani="slideinup"
                         data-ani-delay="0.2s"
                       >
-                        Vestibulum rhoncus nisl ac gravida porta. Mauris eu
-                        sapien lacus. Etiam molestie justo neque, in convallis
-                        massa tempus in.
+                      إذا لم يكن أي عميل مهتمًا بالحصول على الخدمة بعد الزيارة، فسيتم تطبيق رسوم الزيارة الوحيدة. ومع ذلك، إذا وافق العميل على الاستفادة من هذه الخدمة، فلن يتم تطبيق رسوم الفحص هذه.
                       </p>
                       <div
                         className="btn-group"
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <Link to="/about" className="btn">
-                          Learn More
+                        <Link href="/about" className="btn">
+                        يتعلم أكثر
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
@@ -160,7 +156,7 @@ const HeroThree = () => {
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
-                              Requesting A Call:
+                            طلب مكالمة:
                             </h6>
                             <h4 className="link">
                               <a className="text-white" href="tel:6295550129">

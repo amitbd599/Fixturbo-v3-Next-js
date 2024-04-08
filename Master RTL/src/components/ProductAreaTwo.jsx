@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ProductAreaTwo = () => {
   return (
@@ -14,7 +13,7 @@ const ProductAreaTwo = () => {
             </div>
             <div className="col-auto">
               <div className="sec-btn">
-                <Link to="/shop" className="btn style-border2">
+                <Link href="/shop" className="btn style-border2">
                   اشترك لتب
                 </Link>
               </div>
@@ -26,7 +25,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -38,7 +37,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>
@@ -54,7 +53,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -66,7 +65,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>
@@ -82,7 +81,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -94,7 +93,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>
@@ -110,7 +109,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -122,7 +121,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>
@@ -138,7 +137,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -150,7 +149,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>
@@ -169,7 +168,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
+                  <Link href="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -181,7 +180,7 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <Link to="#" className="link-btn">
+                <Link href="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
                 </Link>
               </div>

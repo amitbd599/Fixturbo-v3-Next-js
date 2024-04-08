@@ -1,7 +1,7 @@
-import React from "react";
+'use client'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const HeroFive = () => {
   return (
     <div className="hero-wrapper hero-5">
@@ -37,10 +37,10 @@ const HeroFive = () => {
                         لدينا للحصول على التحديثات
                       </p>
                       <div className="btn-group">
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           اشترك في اشترك في
                         </Link>
-                        <Link to="/service" className="btn style-border">
+                        <Link href="/service" className="btn style-border">
                           لدينا للحصول
                         </Link>
                       </div>
@@ -79,10 +79,10 @@ const HeroFive = () => {
                         لدينا للحصول على التحديثات
                       </p>
                       <div className="btn-group">
-                        <Link to="/about" className="btn">
+                        <Link href="/about" className="btn">
                           اشترك في اشترك في
                         </Link>
-                        <Link to="/service" className="btn style-border">
+                        <Link href="/service" className="btn style-border">
                           لدينا للحصول
                         </Link>
                       </div>
