@@ -213,13 +213,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-1"
+                    href="https://fixturbonext.wowtheme7.com/home-1"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-1"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-1"
                   >
                     RTL Demo
                   </Link>
@@ -242,13 +242,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-2"
+                    href="https://fixturbonext.wowtheme7.com/home-2"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-2"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-2"
                   >
                     RTL Demo
                   </Link>
@@ -271,13 +271,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-3"
+                    href="https://fixturbonext.wowtheme7.com/home-3"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-3"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-3"
                   >
                     RTL Demo
                   </Link>
@@ -300,13 +300,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-4"
+                    href="https://fixturbonext.wowtheme7.com/home-4"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-4"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-4"
                   >
                     RTL Demo
                   </Link>
@@ -329,13 +329,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-5"
+                    href="https://fixturbonext.wowtheme7.com/home-5"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-5"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-5"
                   >
                     RTL Demo
                   </Link>
@@ -358,13 +358,13 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/home-6"
+                    href="https://fixturbonext.wowtheme7.com/home-6"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo-rtl.wowtheme7.com/home-6"
+                    href="https://fixturbonext-rtl.wowtheme7.com/home-6"
                   >
                     RTL Demo
                   </Link>
@@ -418,7 +418,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/about"
+                    href="https://fixturbonext.wowtheme7.com/about"
                   >
                     Live Demo
                   </Link>
@@ -440,7 +440,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/service"
+                    href="https://fixturbonext.wowtheme7.com/service"
                   >
                     Live Demo
                   </Link>
@@ -462,7 +462,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/service-details"
+                    href="https://fixturbonext.wowtheme7.com/service-details"
                   >
                     Live Demo
                   </Link>
@@ -484,7 +484,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/project"
+                    href="https://fixturbonext.wowtheme7.com/project"
                   >
                     Live Demo
                   </Link>
@@ -506,7 +506,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/project-details"
+                    href="https://fixturbonext.wowtheme7.com/project-details"
                   >
                     Live Demo
                   </Link>
@@ -528,7 +528,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/team"
+                    href="https://fixturbonext.wowtheme7.com/team"
                   >
                     Live Demo
                   </Link>
@@ -550,7 +550,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/team-details"
+                    href="https://fixturbonext.wowtheme7.com/team-details"
                   >
                     Live Demo
                   </Link>
@@ -572,7 +572,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/blog"
+                    href="https://fixturbonext.wowtheme7.com/blog"
                   >
                     Live Demo
                   </Link>
@@ -594,7 +594,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/blog-details"
+                    href="https://fixturbonext.wowtheme7.com/blog-details"
                   >
                     Live Demo
                   </Link>
@@ -616,7 +616,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/shop"
+                    href="https://fixturbonext.wowtheme7.com/shop"
                   >
                     Live Demo
                   </Link>
@@ -638,7 +638,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/shop-details"
+                    href="https://fixturbonext.wowtheme7.com/shop-details"
                   >
                     Live Demo
                   </Link>
@@ -660,7 +660,7 @@ export default function Home() {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    href="https://fixturbo.wowtheme7.com/contact"
+                    href="https://fixturbonext.wowtheme7.com/contact"
                   >
                     Live Demo
                   </Link>
