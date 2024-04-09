@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+'use client'
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const ShopDetails = () => {
   return (
@@ -46,13 +46,13 @@ const ShopDetails = () => {
                 </span>
                 <span className="posted_in">
                   فئة:
-                  <Link to="/shop" rel="tag">
+                  <Link href="/shop" rel="tag">
                     الإطارات وأمبير. عجلات
                   </Link>
                 </span>
                 <span>
-                  Tags: <Link to="/shop">قطع غيار السيارات</Link>
-                  <Link to="/shop">عجلات</Link>
+                  Tags: <Link href="/shop">قطع غيار السيارات</Link>
+                  <Link href="/shop">عجلات</Link>
                 </span>
               </div>
             </div>
@@ -187,7 +187,7 @@ const ShopDetails = () => {
                           التوصيل والتشغيل مع التآزر سيناريوهات
                         </p>
                         <div className="reply_and_edit  rtl">
-                          <Link to="/blog-details" className="reply-btn">
+                          <Link href="/blog-details" className="reply-btn">
                             رد <i className="fas fa-reply" />
                           </Link>
                         </div>
@@ -213,7 +213,7 @@ const ShopDetails = () => {
                               تعاوني للتطبيق المحتمل إنتاجية بلا حدود
                             </p>
                             <div className="reply_and_edit rtl">
-                              <Link to="/blog-details" className="reply-btn">
+                              <Link href="/blog-details" className="reply-btn">
                                 رد <i className="fas fa-reply" />
                               </Link>
                             </div>
@@ -242,7 +242,7 @@ const ShopDetails = () => {
                           والتشغيل في حين أن السيناريوهات التآزرية.
                         </p>
                         <div className="reply_and_edit rtl">
-                          <Link to="/blog-details" className="reply-btn">
+                          <Link href="/blog-details" className="reply-btn">
                             رد <i className="fas fa-reply" />
                           </Link>
                         </div>
@@ -302,7 +302,7 @@ const ShopDetails = () => {
             </div>
             <div className="col-md-auto">
               <div className="sec-btn mb-40">
-                <Link to="/shop" className="btn style-border2">
+                <Link href="/shop" className="btn style-border2">
                   شاهد المزيد
                 </Link>
               </div>
@@ -346,7 +346,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">مكابس المحرك والترس</Link>
+                        <Link href="/shop-details">مكابس المحرك والترس</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -358,7 +358,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         أضف إلى السلة <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -376,7 +376,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">العادم</Link>
+                        <Link href="/shop-details">العادم</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -388,7 +388,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         أضف إلى السلة <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -406,7 +406,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">
+                        <Link href="/shop-details">
                           محرك ممسحة الزجاج الأمامي
                         </Link>
                       </h3>
@@ -420,7 +420,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         أضف إلى السلة <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -438,7 +438,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">مضخة التوجيه</Link>
+                        <Link href="/shop-details">مضخة التوجيه</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -450,7 +450,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         أضف إلى السلة <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
@@ -468,7 +468,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <Link to="/shop-details">
+                        <Link href="/shop-details">
                           محرك ممسحة الزجاج الأمامي
                         </Link>
                       </h3>
@@ -482,7 +482,7 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <Link to="#" className="link-btn">
+                      <Link href="#" className="link-btn">
                         أضف إلى السلة <i className="fas fa-arrow-right" />
                       </Link>
                     </div>

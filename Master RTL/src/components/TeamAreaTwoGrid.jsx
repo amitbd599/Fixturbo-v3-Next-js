@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const TeamAreaTwoGrid = () => {
   return (
@@ -13,21 +12,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">داريل ستيوارد</Link>
+                  <Link href="/team-details">داريل ستيوارد</Link>
                 </h4>
                 <span className="team-card_desig">مطور برامج</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -42,21 +41,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">روبرت فوكس</Link>
+                  <Link href="/team-details">روبرت فوكس</Link>
                 </h4>
                 <span className="team-card_desig">مدير المشروع</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -71,21 +70,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">رالف إدواردز</Link>
+                  <Link href="/team-details">رالف إدواردز</Link>
                 </h4>
                 <span className="team-card_desig">سكروم ماستر</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -100,21 +99,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">ويد وارن</Link>
+                  <Link href="/team-details">ويد وارن</Link>
                 </h4>
                 <span className="team-card_desig">مدير التطوير</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -129,21 +128,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">كريستين واتسون</Link>
+                  <Link href="/team-details">كريستين واتسون</Link>
                 </h4>
                 <span className="team-card_desig">قرصان اخلاقي</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>
@@ -158,21 +157,21 @@ const TeamAreaTwoGrid = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">كورتني هنري</Link>
+                  <Link href="/team-details">كورتني هنري</Link>
                 </h4>
                 <span className="team-card_desig">مطور برامج</span>
                 <div className="team-social_wrap">
                   <div className="social-btn style2">
-                    <Link to="https://linkedin.com/">
+                    <Link href="https://linkedin.com/">
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                    <Link to="https://www.instagram.com/">
+                    <Link href="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link href="https://facebook.com/">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="https://twitter.com/">
+                    <Link href="https://twitter.com/">
                       <i className="fab fa-twitter" />
                     </Link>
                   </div>

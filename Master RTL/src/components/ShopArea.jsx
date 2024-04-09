@@ -1,6 +1,7 @@
+'use client'
 import React, { useState } from "react";
 import Slider from "rc-slider";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ShopArea = () => {
   const [range, setRange] = useState([0, 100]);
@@ -59,7 +60,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">مكابس المحرك والترس</Link>
+                      <Link href="/shop-details">مكابس المحرك والترس</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -71,7 +72,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -87,7 +88,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">العادم</Link>
+                      <Link href="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -99,7 +100,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -115,7 +116,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
+                      <Link href="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -127,7 +128,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -143,7 +144,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">مضخة التوجيه</Link>
+                      <Link href="/shop-details">مضخة التوجيه</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -155,7 +156,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -171,7 +172,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
+                      <Link href="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -183,7 +184,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -199,7 +200,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">العادم</Link>
+                      <Link href="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -211,7 +212,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -227,7 +228,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">مكابس المحرك والترس</Link>
+                      <Link href="/shop-details">مكابس المحرك والترس</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -239,7 +240,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -255,7 +256,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">العادم</Link>
+                      <Link href="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -267,7 +268,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -283,7 +284,7 @@ const ShopArea = () => {
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
+                      <Link href="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -295,7 +296,7 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <Link to="#" className="link-btn">
+                    <Link href="#" className="link-btn">
                       أضف إلى السلة <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
@@ -305,16 +306,16 @@ const ShopArea = () => {
             <div className="pagination justify-content-center mt-70">
               <ul>
                 <li>
-                  <Link to="/blog">1</Link>
+                  <Link href="/blog">1</Link>
                 </li>
                 <li>
-                  <Link to="/blog">2</Link>
+                  <Link href="/blog">2</Link>
                 </li>
                 <li>
-                  <Link to="/blog">3</Link>
+                  <Link href="/blog">3</Link>
                 </li>
                 <li>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="fas fa-angle-right" />
                   </Link>
                 </li>
@@ -336,31 +337,31 @@ const ShopArea = () => {
                 <h3 className="widget_title">فئات المنتجات</h3>
                 <ul className="rtl">
                   <li className="rtl">
-                    <Link to="/service-details">المقود</Link>
+                    <Link href="/service-details">المقود</Link>
                     <span>(12)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">تعليق الربيع</Link>{" "}
+                    <Link href="/service-details">تعليق الربيع</Link>{" "}
                     <span>(12)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">الضوء الخلفي</Link>
+                    <Link href="/service-details">الضوء الخلفي</Link>
                     <span>(08)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">الانتقال</Link>
+                    <Link href="/service-details">الانتقال</Link>
                     <span>(13)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">محرك ممسحة الزجاج الأمامي</Link>
+                    <Link href="/service-details">محرك ممسحة الزجاج الأمامي</Link>
                     <span>(03)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">حاقن الوقود</Link>
+                    <Link href="/service-details">حاقن الوقود</Link>
                     <span>(03)</span>
                   </li>
                   <li className="rtl">
-                    <Link to="/service-details">ابحث عن منتجك</Link>
+                    <Link href="/service-details">ابحث عن منتجك</Link>
                     <span>(03)</span>
                   </li>
                 </ul>

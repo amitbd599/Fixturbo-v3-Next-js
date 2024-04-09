@@ -22,7 +22,7 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Service"} />
+      <Breadcrumb title={"خدمة"} />
 
       {/* Service Area One */}
       <ServiceAreaOne_multi_img />

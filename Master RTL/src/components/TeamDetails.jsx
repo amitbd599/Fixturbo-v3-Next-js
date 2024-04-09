@@ -1,4 +1,4 @@
-import React from "react";
+'use client'
 import ProgressBar from "@ramonak/react-progress-bar";
 const TeamDetails = () => {
   return (

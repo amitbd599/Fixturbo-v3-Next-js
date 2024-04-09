@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ServiceAreaOne_multi_img = () => {
   return (
@@ -16,12 +15,12 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">المثبتات التلقائية</Link>
+                  <Link href="/service-details">المثبتات التلقائية</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -43,13 +42,13 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">ماجستير ميكانيكا</Link>
+                  <Link href="/service-details">ماجستير ميكانيكا</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو الأضرار مع
                   الخاص بك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -71,12 +70,12 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">مرآب للسيارات</Link>
+                  <Link href="/service-details">مرآب للسيارات</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -98,13 +97,13 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">عيادة العناية بالسيارات</Link>
+                  <Link href="/service-details">عيادة العناية بالسيارات</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو الأضرار مع
                   الخاص بك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -126,12 +125,12 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">خدمات إصلاح السيارات</Link>
+                  <Link href="/service-details">خدمات إصلاح السيارات</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -153,13 +152,13 @@ const ServiceAreaOne_multi_img = () => {
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link to="/service-details">حلول الإصلاح</Link>
+                  <Link href="/service-details">حلول الإصلاح</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو الأضرار مع
                   الخاص بك
                 </p>
-                <Link to="/service-details" className="link-btn">
+                <Link href="/service-details" className="link-btn">
                   اقرأ أكثر <i className="fas fa-arrow-right" />
                 </Link>
               </div>

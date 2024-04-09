@@ -22,7 +22,7 @@ const page = () => {
        <HeaderOne />
 
 {/* Breadcrumb */}
-<Breadcrumb title={"Cart"} />
+<Breadcrumb title={"عربة التسوق"} />
 
  {/* Wishlist */}
  <Wishlist />

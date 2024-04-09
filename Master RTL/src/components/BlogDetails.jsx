@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const BlogDetails = () => {
   return (
@@ -14,16 +13,16 @@ const BlogDetails = () => {
                   alt="fixturbo_img"
                 />
                 <div className="blog-meta">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     <i className="far fa-comments" />
                     التعليقات (05)
                   </Link>
-                  <Link to="/blog">
+                  <Link href="/blog">
                     <i className="far fa-user" />
                     بواسطة المشرف
                   </Link>
                 </div>
-                <Link to="/blog-details" className="blog-date">
+                <Link href="/blog-details" className="blog-date">
                   15 ديسمبر
                 </Link>
               </div>
@@ -139,9 +138,9 @@ const BlogDetails = () => {
               <div className="share-links clearfix ">
                 <span className="share-links-title">العلامات:</span>
                 <div className="tagcloud">
-                  <Link to="/blog">كل المشروع</Link>
-                  <Link to="/blog">إصلاح السيارات</Link>
-                  <Link to="/blog">خدمات الإصلاح</Link>
+                  <Link href="/blog">كل المشروع</Link>
+                  <Link href="/blog">إصلاح السيارات</Link>
+                  <Link href="/blog">خدمات الإصلاح</Link>
                 </div>
               </div>
             </div>
@@ -215,27 +214,27 @@ const BlogDetails = () => {
                 <h3 className="widget_title">فئة</h3>
                 <ul>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       الدقة لأعمال السيارات <span>(4)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       إصلاح السيارات المتنقلة <span>(5)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       النخبة لخدمة السيارات <span>(8)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       الإصلاح التلقائي الاحترافي <span>(4)</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/blog">
+                    <Link href="/blog">
                       مرآب للسيارات <span>(3)</span>
                     </Link>
                   </li>
@@ -247,16 +246,16 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           محركات الإصلاح السريع
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">Sep 15, 2024</Link>
+                        <Link href="/blog">Sep 15, 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post1.png"
                           alt="fixturbo_img"
@@ -267,16 +266,16 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           خدمة احترافية
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">25 يونيو 2024</Link>
+                        <Link href="/blog">25 يونيو 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post2.png"
                           alt="fixturbo_img"
@@ -287,16 +286,16 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-inherit" to="/blog-details">
+                        <Link className="text-inherit" href="/blog-details">
                           مفتاح ربط التروس التلقائي
                         </Link>
                       </h4>
                       <div className="recent-post-meta">
-                        <Link to="/blog">25 يونيو 2024</Link>
+                        <Link href="/blog">25 يونيو 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <Link to="/blog-details">
+                      <Link href="/blog-details">
                         <img
                           src="assets/img/blog/recent-post3.png"
                           alt="fixturbo_img"
@@ -309,15 +308,15 @@ const BlogDetails = () => {
               <div className="widget widget_tag_cloud">
                 <h3 className="widget_title">العلامات</h3>
                 <div className="tagcloud">
-                  <Link to="/blog">ميكانيكي</Link>
-                  <Link to="/blog">المثبتات التلقائية</Link>
-                  <Link to="/blog">إصلاح السيارة</Link>
-                  <Link to="/blog">الإصلاح التلقائي الاحترافي</Link>
-                  <Link to="/blog">خدمة</Link>
-                  <Link to="/blog">تصليح ذاتي</Link>
-                  <Link to="/blog">إصلاح تلقائي</Link>
-                  <Link to="/blog">سادة</Link>
-                  <Link to="/blog">السيارات</Link>
+                  <Link href="/blog">ميكانيكي</Link>
+                  <Link href="/blog">المثبتات التلقائية</Link>
+                  <Link href="/blog">إصلاح السيارة</Link>
+                  <Link href="/blog">الإصلاح التلقائي الاحترافي</Link>
+                  <Link href="/blog">خدمة</Link>
+                  <Link href="/blog">تصليح ذاتي</Link>
+                  <Link href="/blog">إصلاح تلقائي</Link>
+                  <Link href="/blog">سادة</Link>
+                  <Link href="/blog">السيارات</Link>
                 </div>
               </div>
             </aside>
