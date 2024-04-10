@@ -1,3 +1,6 @@
+"use client";
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 import Animation from "@/helper/Animation";
 import Preloader from "@/helper/Preloader";
 import Link from "next/link";
@@ -87,14 +90,15 @@ export default function Home() {
               <div className="banner-inner text-center">
                 <img
                   className="banner-logo"
-                  src="assets/img/demo/logo-big.png"
+                  src="/assets/img/demo/nextjs.svg"
                   alt="logo"
                 />
                 <h1 className="mt-4">
-                  Fixturbo - Car Repair &amp; Auto Services React Js Template
+                  Fixturbo - Car Repair &amp; Auto Services NEXT JS Template
+                  With RTL
                 </h1>
                 <p className="me-5 mb-5">
-                  Fixturbo is Car Repair &amp; Auto Services React Js Template
+                  Fixturbo is Car Repair &amp; Auto Services NEXT Js Template
                   built for an array of services with Link number of auto
                   service and car repair institutions in mind.
                 </p>
@@ -150,7 +154,15 @@ export default function Home() {
                 <div className="single-counter-inner text-center">
                   <div className="details">
                     <h2>
-                      <span className="counter">20</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter">
+                              <CountUp delay={0} start={0} end={20} />+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Total Pages</p>
                   </div>
@@ -160,7 +172,15 @@ export default function Home() {
                 <div className="single-counter-inner text-center">
                   <div className="details">
                     <h2>
-                      <span className="counter">06</span>
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter">
+                              <CountUp delay={0} start={0} end={6} />
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Total Homes</p>
                   </div>
@@ -170,7 +190,15 @@ export default function Home() {
                 <div className="single-counter-inner text-center">
                   <div className="details">
                     <h2>
-                      <span className="counter">14</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter">
+                              <CountUp delay={0} start={0} end={14} />+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Inner Pages</p>
                   </div>
@@ -918,7 +946,7 @@ export default function Home() {
                 </Link>
                 <h5 className="text-white mb-5 mt-5 lh-base">
                   It is Link modern &amp; beautiful Car Repair &amp; Auto
-                  Services React Template. It's Specially Car Repair &amp; Auto
+                  Services NEXT Template. It's Specially Car Repair &amp; Auto
                   Services Company website.
                 </h5>
                 <Link

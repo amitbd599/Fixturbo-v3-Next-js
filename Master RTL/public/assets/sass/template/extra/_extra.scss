@@ -150,13 +150,12 @@
   z-index: 9;
 }
 .scroll-to-top {
-  z-index: 999999;
+  z-index: 999999 !important;
 }
 
 .price_slider_wrapper .button {
   width: 70px !important;
 }
-
 
 // Error Section
 
@@ -178,7 +177,6 @@
       margin-right: auto;
       img {
         width: 100%;
-       
       }
     }
     .text-file {
